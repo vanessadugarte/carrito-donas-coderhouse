@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@0;1&family=Oswald:wght@200&display=swap');
+
+body {
+    background-color: #FDF3F5;
+    margin: 0px;
+    height: 100%;
+  }
+
+  .h2{
+    margin-top: 1%;
+    color: #E70D0D;
+    font-family: oswald;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container{
+    margin-top:2%;
+    display:flex;
+    justify-content: space-evenly;
+  }
+
+.container-dona{
+    width:22%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 25px;
+    
+    
+}
+
+img{
+padding-top: 7%;
+padding-bottom: 7%;
+max-width: 55%;
+}
+
+.description {
+    max-width: 70%;
+    font-size: 14px;
+}
+
+.boton{
+    background-color: #FF66A6;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    margin-top:3%;
+    width:150px;
+    border-radius: 10px;
+}
+
+.btn{
+    color:white;
+}
+
+.productTitle, .price {
+    color:#E70D0D;
+    font-family: archivo narrow;
+    margin: 3px;
+    font-size: 20px;
+}
+
+
+.payContenedor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay{
+        background-color: #FF66A6;
+        color:white;
+        margin-top:3%;
+        width:85%;
+        height: 35px;
+        border-radius: 8px;
+        border-style: none;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container-dona{
+        max-width: 70%;
+        margin-bottom: 25px;
+        
+        
+    }
+    
+}
